@@ -1,5 +1,7 @@
+import styles from "./App.module.css";
+
 function App() {
-  return <>Hello Workd</>;
+  return <div className={styles.App}>Hello Workd</div>;
 }
 
 export default App;
