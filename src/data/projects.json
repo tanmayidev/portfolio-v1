@@ -4,7 +4,7 @@
     "imageSrc": "projects/project.png",
     "description": "Frontend of a Minimalistic Ecommerce store - Serene Shop built using react.js.",
     "skills": ["React", "JavaScript", "CSS"],
-    "demo": "https://www.example.com",
+    "demo": "https://tanmayidev.github.io/serene-shop",
     "source": "https://github.com/tanmayidev/serene-shop"
   },
   {
