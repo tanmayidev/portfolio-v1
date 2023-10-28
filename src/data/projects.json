@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Serene Shop",
+    "imageSrc": "projects/project.png",
+    "description": "Frontend of a Minimalistic Ecommerce store - Serene Shop built using react.js.",
+    "skills": ["React", "JavaScript", "CSS"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/tanmayidev/serene-shop"
+  },
+  {
+    "title": "LaunchED",
+    "imageSrc": "projects/project.png",
+    "description": "Online Course Management System with CRUD operations and Neumorphic UI.",
+    "skills": ["HTML", "CSS", "JS", "Django", "SQLite DB"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/tanmayidev/LaunchED"
+  },
+  {
+    "title": "EV Charging Station Backend",
+    "imageSrc": "projects/project.png",
+    "description": "Backend design of ev-charging-station using MVC pattern.",
+    "skills": ["Node", "Express", "SQLite DB", "Sequelize"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/tanmayidev/ev-charging-station-backend"
+  },
+  {
+    "title": "Rate Limiter",
+    "imageSrc": "projects/project.png",
+    "description": "Rate limiter prevents the same IP address from making too many requests that will help us prevent attacks like brute force.",
+    "skills": ["Node", "Express", "TypeScript", "Postman"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/tanmayidev/rate-limiter"
+  },
+  {
+    "title": "Google Keep Clone",
+    "imageSrc": "projects/project.png",
+    "description": "Clone of Google Keep Application.",
+    "skills": ["React"],
+    "demo": "https://github.com/tanmayidev/google-keep-clone",
+    "source": "https://tanmayidev.github.io/google-keep-clone/"
+  }
+]

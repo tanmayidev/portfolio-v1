@@ -1,0 +1,40 @@
+[
+  {
+    "role": "Software Engineer",
+    "organisation": "SentinelOne",
+    "startDate": "Aug, 2022",
+    "endDate": "Present",
+    "experiences": [
+      "Took ownership of the project to integrate an application as an iframe, enhancing the user experience by offering a single tab interface with smooth navigation. This undertaking entailed the modification and thorough testing of 50 pages and 27 distinct features.",
+      "Maintained Legacy BackBoneJS code and SaaS app by adding enhancements and solving bugs",
+      "Developed GraphQL APIs that facilitate the retrieval and submission of data between Elasticsearch (ES) and the frontend for user onboarding. This onboarding is used across multiple products",
+      "Managed the migration of the testing infrastructure from Jest to ViTest, improving testing efficiency and accuracy. Established and enforced standardized testing practices to ensure comprehensive code coverage.",
+      "Led the successful migration of the frontend codebase from Backbone.js to React.js, resulting in substantial enhancements in development efficiency, code reusability, and a remarkable boost in application performance.",
+      "Refactored an exisiting code to make loosely coupled which helped reduce the rework and use the code easily for multiple user-flows",
+      "Worked on Ranger-AD, Sigularity Identity, Shell applications and Threat Detection feature in an existing app"
+    ],
+    "imageSrc": "history/sentinelone1.png"
+  },
+  {
+    "role": "SWE Intern, UI Designer",
+    "organisation": "Project StepOne",
+    "startDate": "Aug, 2021",
+    "endDate": "Feb, 2022",
+    "experiences": [
+      "Designed and Created a Dashboard for StepOne Community",
+      "Developed an adaptable website enabling users to input symptoms and contact details, with data seamlessly transmitted to a community dashboard"
+    ],
+    "imageSrc": "history/stepone1.png"
+  },
+  {
+    "role": "SWE Intern",
+    "organisation": "Holoworld (formerly Kaaya Tech)",
+    "startDate": "Jul, 2020",
+    "endDate": "Nov, 2020",
+    "experiences": [
+      "Developed 3D interactive virtual and robotics experiments",
+      "Created experiments to explain working of robots, electrical and electronic devices"
+    ],
+    "imageSrc": "history/holoworld1.png"
+  }
+]
