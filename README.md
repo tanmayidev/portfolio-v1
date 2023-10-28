@@ -1,5 +1,9 @@
 # My Portfolio - v1
 
+First iteration of my portfolio based on one of many design ideas I have
+
+
+
 ## Tech Stack
 
 - Vite
