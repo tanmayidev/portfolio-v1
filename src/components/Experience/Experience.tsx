@@ -9,20 +9,22 @@ export const Experience = () => {
       <h2 className={styles.title}>Experience</h2>
       <div className={styles.content}>
         <div className={styles.skills}>
-          {skills.map((skill, id) => (
-            <div key={id} className={styles.skill}>
-              <div className={styles.skillImgContainer}>
-                <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+          {skills.map((skill, id) => {
+            return (
+              <div key={id} className={styles.skill}>
+                <div className={styles.skillImageContainer}>
+                  <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+                </div>
+                <p>{skill.title}</p>
               </div>
-              <p>{skill.title}</p>
-            </div>
-          ))}
+            );
+          })}
         </div>
         <ul className={styles.history}>
-          {history.map((historyItem, id) => (
-            <li key={id} className={styles.historyItem}>
-              <div className={styles.historyItemDetails}>
-                <div className={styles.historyItemHeader}>
+          {history.map((historyItem, id) => {
+            return (
+              <li key={id} className={styles.historyItem}>
+                <div className={styles.historyHeader}>
                   <img
                     src={getImageUrl(historyItem.imageSrc)}
                     alt={`${historyItem.organisation} Logo`}
@@ -33,14 +35,16 @@ export const Experience = () => {
                   </div>
                 </div>
 
-                <ul>
-                  {historyItem.experiences.map((experience, id) => (
-                    <li key={id}>{experience}</li>
-                  ))}
-                </ul>
-              </div>
-            </li>
-          ))}
+                <div className={styles.historyItemDetails}>
+                  <ul>
+                    {historyItem.experiences.map((experience, id) => {
+                      return <li key={id}>{experience}</li>;
+                    })}
+                  </ul>
+                </div>
+              </li>
+            );
+          })}
         </ul>
       </div>
     </section>
