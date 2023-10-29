@@ -36,7 +36,7 @@
     "imageSrc": "projects/project.png",
     "description": "Clone of Google Keep Application",
     "skills": ["React"],
-    "demo": "https://github.com/tanmayidev/google-keep-clone",
-    "source": "https://tanmayidev.github.io/google-keep-clone/"
+    "demo": "https://tanmayidev.github.io/google-keep-clone/",
+    "source": "https://github.com/tanmayidev/google-keep-clone"
   }
 ]
