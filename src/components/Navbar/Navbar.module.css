@@ -7,11 +7,11 @@
   justify-content: space-between;
   padding: 2.5rem;
   z-index: 2;
-  margin: 0 10%;
+  margin: 0 7%;
 }
 
 .title {
-  font-size: 1.5rem;
+  font-size: 1rem;
   letter-spacing: 0.1rem;
   font-weight: 600;
   text-decoration: none;
@@ -28,19 +28,19 @@
 
 .menuItems {
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
   list-style: none;
 }
 
 .menuItems a {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: var(--color-text);
   text-decoration: none;
+  padding: 0.5rem 1rem;
 }
 
 .menuItems a:hover {
   background-color: var(--color-secondary);
-  padding: 0.5rem 1rem;
   border-radius: 0.5rem;
 }
 

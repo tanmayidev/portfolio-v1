@@ -8,7 +8,7 @@
 }
 
 .title {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
@@ -51,7 +51,7 @@
 }
 
 .skill p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-family: var(--font-roboto);
   font-weight: 500;
 }
@@ -94,13 +94,14 @@
 }
 
 .historyHeaderItems h3 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 500;
   line-height: 2rem;
 }
 
 .historyHeaderItems p {
   font-size: 1rem;
+  letter-spacing: 1.2px;
 }
 
 .historyItemDetails ul {
@@ -111,7 +112,9 @@
 }
 
 .historyItemDetails li {
-  line-height: 2rem;
+  color: var(--color-text-light);
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 @media screen and (max-width: 830px) {
