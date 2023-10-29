@@ -127,6 +127,10 @@
     justify-content: center;
   }
 
+  .historyHeader img {
+    display: none;
+  }
+
   .history {
     width: 100%;
     gap: 1rem;
